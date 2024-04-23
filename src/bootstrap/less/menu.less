@@ -1,0 +1,47 @@
+.menu{
+	border-right:1px solid #509ae5;
+	.menu-t{
+		background-color: @menu-first-bg;
+		padding: 10px;
+		cursor: pointer;
+	}
+	.menu-c {
+		background-color: @menu-second-bg;
+		cursor: pointer;
+		display:none;
+		&:hover{
+			background-color:@menu-hover-bg;
+			a{
+				color:@menu-hover-color;
+				text-decoration: none;
+			}
+		}
+	}
+	a{
+		display:block;
+		padding:10px;
+	}
+	.menu-active{
+		background-color:@menu-hover-bg;
+		a{
+			color:@menu-hover-color;
+			text-decoration: none;
+		}
+	}
+	.glyphicon{
+		font-family: "宋体";
+		font-size: 14px;
+		line-height: 8px;
+		color:#0263bd;
+		border:1px solid #0263bd;
+		padding: 1px;
+		height: 11px;
+		top:4px;
+		float: right;
+	}
+	.glyphicon-minus{
+		padding: 0px;
+		font-size: 12px;
+		text-align: center;
+	}
+}
